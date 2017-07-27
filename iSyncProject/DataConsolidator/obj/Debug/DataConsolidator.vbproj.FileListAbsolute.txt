@@ -34,3 +34,7 @@ D:\WORKING\iSyncProject\DataConsolidator\obj\Debug\DataConsolidator.exe
 D:\WORKING\iSyncProject\DataConsolidator\obj\Debug\DataConsolidator.xml
 D:\WORKING\iSyncProject\DataConsolidator\obj\Debug\DataConsolidator.pdb
 D:\WORKING\iSyncProject\DataConsolidator\obj\Debug\DataConsolidator.vbprojResolveAssemblyReference.cache
+C:\Users\S.Plaza\store\iSyncProject\DataConsolidator\bin\Debug\DataConsolidator.exe.config
+C:\Users\S.Plaza\store\iSyncProject\DataConsolidator\obj\Debug\DataConsolidator.exe
+C:\Users\S.Plaza\store\iSyncProject\DataConsolidator\obj\Debug\DataConsolidator.xml
+C:\Users\S.Plaza\store\iSyncProject\DataConsolidator\obj\Debug\DataConsolidator.pdb

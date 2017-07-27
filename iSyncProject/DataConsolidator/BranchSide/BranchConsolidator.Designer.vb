@@ -125,6 +125,7 @@ Partial Class v
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.timer_wait = New System.Windows.Forms.Timer(Me.components)
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -1073,12 +1074,27 @@ Partial Class v
         '
         Me.timer_wait.Interval = 1000
         '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.Color.SlateGray
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.Snow
+        Me.TextBox1.Location = New System.Drawing.Point(314, 320)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(75, 26)
+        Me.TextBox1.TabIndex = 63
+        Me.TextBox1.Text = "0"
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'v
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(602, 455)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.txtLoanProtectionUploaded)
         Me.Controls.Add(Me.txtLoanProtectionTotal)
@@ -1257,4 +1273,5 @@ Partial Class v
     Friend WithEvents Label28 As System.Windows.Forms.Label
     Friend WithEvents Label29 As System.Windows.Forms.Label
     Friend WithEvents timer_wait As System.Windows.Forms.Timer
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
 End Class
